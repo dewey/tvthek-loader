@@ -10,7 +10,7 @@ def rtmpString (stream, show):
 showlink = sys.argv[1]
 output = sys.argv[2]
 
-r = requests.get('http://tvthek.orf.at/programs/4492845-Mein-Simmering/episodes/4482181-Mein-Simmering/4493119-Mein-Simmering')
+r = requests.get(showlink)
 
 soup = BeautifulSoup(r.text)
 
