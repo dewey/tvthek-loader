@@ -13,4 +13,4 @@ Download videos from tvthek.orf.at.
 ### Usage:
 ---
 
-`python tvthek-loader.py http://tvthek.orf.at/programs/1234-Link-to-Video output.mp4`
+`python tvthek-loader.py http://tvthek.orf.at/programs/1234-Link-to-Video output-file-name <chapter>`
